@@ -5,5 +5,5 @@
 - Literalmente tudo.
 
 ## Membros
-Joao Gebara
+Joao Gebara\
 Rhamza Mourad
