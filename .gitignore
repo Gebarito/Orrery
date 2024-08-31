@@ -1,0 +1,5 @@
+# SECRETS
+.env
+
+# IDE folder`s
+.vscode/
