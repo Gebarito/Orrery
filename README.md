@@ -6,4 +6,5 @@
 
 ## Membros
 Joao Gebara\
+Joao Minelli\
 Rhamza Mourad
