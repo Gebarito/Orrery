@@ -9,11 +9,15 @@ renderer.setAnimationLoop( animate );
 document.body.appendChild( renderer.domElement );
 
 const geometry = new THREE.SphereGeometry( 15, 32, 16 );
-const material = new THREE.MeshBasicMaterial( { color: 0x0000ff } );
+const material = new THREE.MeshBasicMaterial( { 
+	map: new THREE.TextureLoader().load(
+		'https://t3.ftcdn.net/jpg/01/96/89/34/360_F_196893434_tE0PIrFSWibtYTYbRSTqYvyvZ893O6L7.webp'
+	)
+ } );
 const sphere = new THREE.Mesh( geometry, material );
 scene.add( sphere );
 
-camera.position.z = 30;
+camera.position.z = 150;
 
 function animate() {
 
@@ -21,9 +25,4 @@ function animate() {
 	sphere.rotation.y += 0.01;
 
 	renderer.render( scene, camera );
-
-}
-
-function fetchPlanets() {
-	
 }
